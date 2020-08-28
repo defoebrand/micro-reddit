@@ -1,24 +1,55 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A mini example application of rails migrations built with Ruby on Rails.
 
-Things you may want to cover:
+![screenshot](public/console-output.png)
 
-* Ruby version
+## Built With
 
-* System dependencies
+-   Ruby
+-   Ruby on Rails
+-   VS Code \* Atom
+-   Ubuntu & Mac
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+1.  Ruby 2.7
+2.  Rails 6
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+1.  Clone this repository with
+    `git clone https://github.com/defoebrand/micro-reddit.git` using your terminal or command line.
+2.  Change to the project directory by entering `cd micro-reddit` in the terminal
+3.  Next run `bundle install` to install the necessary dependencies
+4.  Run `rails db:migrate` to setup your local database.
+5.  Finally run `rails console` to start the application.
 
-* ...
+## Authors
+
+👤 **Mark Rode**
+
+-   Github: [@m15e](https://github.com/m15e)
+
+👤 **Brandon Defoe**
+
+-   Github: [@defoebrand](https://github.com/defoebrand)
+-   LinkedIn: [@defoebrand](https://www.linkedin.com/in/defoebrand/)
+-   Gmail: <mailto:defoe.brand@gmail.com>
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+-   The Odin Project
+-   Microverse
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
