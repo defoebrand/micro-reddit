@@ -1,8 +1,9 @@
 class CreatePosts < ActiveRecord::Migration[6.0]
   def change
     create_table :posts do |t|
-      t.string :title, unique: true, present: true
-      t.text :body, present: true
+      t.belongs_to :user, index: { unique: true }, foreign_key: true
+      t.string :title
+      t.text :body
 
       t.timestamps
     end
